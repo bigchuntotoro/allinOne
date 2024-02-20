@@ -10,3 +10,14 @@ Globals.mysql.Password = com01 처럼 평문을 사용하려면 context-crypto.x
 
 
 context-datasource.xml 에서 Globals.mysql.Password}"/> 로 바꾸어 주어야 함
+
+3. 프로젝트명 설정 일치 시켜주기
+
+   
+프로젝트 명을 eGove_one이라고 지정하였으므로 일치시켜주어야 합니다.
+
+
+
+ctrl + H 를 눌러서 egovframework-all-in-one 를 검색합니다.
+
+4. 프로젝트 우클릭 -> Run As -> Maven Install
