@@ -80,7 +80,8 @@
 		<property name="driverClassName" value="${Globals.maria.DriverClassName}"/>
 		<property name="url" value="${Globals.maria.Url}" />
 		<property name="username" value="${Globals.maria.UserName}"/>
-		<property name="password" value="#{egovEnvCryptoService.getPassword()}"/>
+		<property name="password" value="#{Globals.maria.Password}"/>
+		<!-- <property name="password" value="#{egovEnvCryptoService.getPassword()}"/> -->
 	</bean>
 	</beans>
 
